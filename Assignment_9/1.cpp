@@ -20,8 +20,7 @@ public:
             adj[i] = NULL;
     }
 
-    void addEdge(int u, int v) {   //for undirected
-  
+    void addEdge(int u, int v) {
         Node* newNode = new Node();
         newNode->vertex = v;
         newNode->next = adj[u];
